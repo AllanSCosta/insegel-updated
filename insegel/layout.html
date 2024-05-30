@@ -39,7 +39,7 @@
         <header>
             <div id="logo-container">
                 {% if logo_url %}
-                <a href="{{ pathto(master_doc) }}"><img src="{{ pathto(logo_url, 1) }}"></a>
+                <a href="{{ pathto(master_doc) }}"><img src="{{ logo_url }}"></a>
                 {% else %}
                 <h1>{{ project }}</h1>
                 {% endif %}
